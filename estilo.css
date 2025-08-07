@@ -14,17 +14,22 @@ header {
   background: linear-gradient(to bottom, #ffa500, #ffcc00);
   text-align: center;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 header h1 {
   font-size: 2.5rem;
   color: green;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.1em;
 }
 
 header h2 {
   font-size: 1.2rem;
   color: #fff;
+  scroll-padding: 10px;
 }
 
 .logo-box {
@@ -38,6 +43,7 @@ header h2 {
   justify-content: center;
   font-weight: bold;
   font-size: 1.2rem;
+  border-radius: 1em;
 }
 .logo-box img {
   max-width: 100%;
@@ -51,12 +57,49 @@ header h2 {
   padding: 20px 10px;
 }
 
+.destaque {
+  background: #ffcc00;
+  border: 3px solid #ffa500;
+  margin: 10px;
+  padding: 10px;
+  width: 730px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destaque img {
+  width: 10em;
+  height: 10em;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.destaque h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.destaque .preco-antigo {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.destaque .preco-novo {
+  color: red;
+  font-weight: bold;
+  font-size: 2.1rem;
+  box-sizing: border-box;
+  box-shadow: #e60000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 .produto {
   background: white;
   border: 3px solid #e60000;
   margin: 10px;
   padding: 10px;
-  width: 150px;
+  width: 230px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -84,6 +127,7 @@ header h2 {
   color: red;
   font-weight: bold;
   font-size: 1.1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .rodape {
