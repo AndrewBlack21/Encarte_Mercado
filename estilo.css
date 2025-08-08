@@ -1,3 +1,4 @@
+/* Reseta o CSS */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,11 +6,13 @@
   font-family: Arial, sans-serif;
 }
 
+/* Configurar o Body do site com fundo branco e letras cinzas */
 body {
   background: #fff;
   color: #333;
 }
 
+/* Configurar o header com o logo e as cores que sera utilizado  */
 header {
   background: linear-gradient(to bottom, #ffa500, #ffcc00);
   text-align: center;
@@ -18,6 +21,7 @@ header {
   align-items: center;
 }
 
+/* Configurar a letra do header que sera utilizando com a tag H1 */
 header h1 {
   font-size: 2.5rem;
   color: green;
@@ -26,12 +30,14 @@ header h1 {
   letter-spacing: 0.1em;
 }
 
+/* Configurar a letra do header que sera utilizando com a tag H2 */
 header h2 {
   font-size: 1.2rem;
   color: #fff;
   scroll-padding: 10px;
 }
 
+/* Configurar a caixa do logo */
 .logo-box {
   background: white;
   border: 4px solid green;
@@ -45,10 +51,12 @@ header h2 {
   font-size: 1.2rem;
   border-radius: 1em;
 }
+/* Configurar a imagem do logo */
 .logo-box img {
   max-width: 100%;
   max-height: 100%;
 }
+/* Configurar a seção de banner */
 .banner {
   display: flex;
   flex-wrap: wrap;
@@ -57,35 +65,40 @@ header h2 {
   padding: 20px 10px;
 }
 
+/* Configurar as ofertas que ficaram em destaque */
 .destaque {
   background: #ffcc00;
   border: 3px solid #ffa500;
   margin: 10px;
   padding: 10px;
-  width: 730px;
+  width: 480px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Configurar a imagem do destaque */
 .destaque img {
   width: 10em;
   height: 10em;
   object-fit: contain;
   margin-bottom: 10px;
 }
+
+/* Configurar a letra do destaque que sera utilizando com a tag H3 */
 .destaque h3 {
   font-size: 3rem;
   margin-bottom: 5px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Configurar o preço antigo onde fica com a faixa */
 .destaque .preco-antigo {
   text-decoration: line-through;
   color: gray;
   font-size: 0.9rem;
 }
-
+/* Configura o preço da oferta que esta em promoção */
 .destaque .preco-novo {
   color: red;
   font-weight: bold;
@@ -94,6 +107,7 @@ header h2 {
   box-shadow: #e60000;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+/* Configurar a seção de produtos */
 .produto {
   background: white;
   border: 3px solid #e60000;
@@ -105,6 +119,7 @@ header h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Configurar a imagem do produto */
 .produto img {
   width: 80px;
   height: 80px;
@@ -112,11 +127,13 @@ header h2 {
   margin-bottom: 10px;
 }
 
+/* Configurar a letra do produto que sera utilizando com a tag H3 */
 .produto h3 {
   font-size: 1rem;
   margin-bottom: 5px;
 }
 
+/* Configurar o preço antigo onde fica com a faixa */
 .produto .preco-antigo {
   text-decoration: line-through;
   color: gray;
@@ -130,6 +147,7 @@ header h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Configuramos o rodape para caso queiram utilizar com algo */
 .rodape {
   background: orange;
   color: white;
