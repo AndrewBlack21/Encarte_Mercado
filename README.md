@@ -6,13 +6,11 @@ Um projeto simples e funcional feito com HTML, CSS e JavaScript, que simula um *
 
 - HTML5
 - CSS3
-- JavaScript Vanilla
 
 ## 📌 Funcionalidades
 
 - Listagem de produtos com imagens
 - Preços e promoções em destaque
-- Layout responsivo 💻📱
 - Código limpo e organizado, pronto para expansão
 
 ## 💡 Objetivo
@@ -23,8 +21,7 @@ O objetivo deste projeto é **simular um encarte de ofertas**, como os panfletos
 
 Durante esse projeto, aprofundei meus conhecimentos em:
 
-- Manipulação de DOM
-- Responsividade com CSS
+
 - Organização de layout visual
 - Estruturação de projetos front-end
 
